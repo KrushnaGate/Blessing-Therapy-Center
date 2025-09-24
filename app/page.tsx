@@ -88,11 +88,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* <section id="features" className="bg-slate-50">
+        <div className="mx-auto max-w-6xl px-4 py-16">
+          <div className="relative aspect-[14/9] rounded-xl overflow-hidden border">
+            <Image
+              src="/images/ChatGPTFeatures.png"
+              alt="Occupational therapy tools and sensory equipment"
+              fill
+              sizes="(max-width: 768px) 100vw, 1024px"
+              className="object-cover"
+            />
+          </div>
+          <h2 className="mt-8 text-2xl md:text-3xl font-semibold text-[#0F172A]">
+            Features
+          </h2>
+          <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {features.map((f) => (
+              <FeatureCard key={f} title={f} />
+            ))}
+          </div>
+        </div>
+      </section> */}
+
       <section id="features" className="bg-slate-50">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <div className="relative aspect-[16/9] rounded-xl overflow-hidden border">
+          <div className="relative h-64 rounded-xl overflow-hidden border">
             <Image
-              src="/images/features.jpg"
+              src="/images/features.png"
               alt="Occupational therapy tools and sensory equipment"
               fill
               sizes="(max-width: 768px) 100vw, 1024px"
@@ -112,9 +134,9 @@ export default function HomePage() {
 
       <section id="services" className="bg-slate-50">
         <div className="mx-auto max-w-6xl px-4 py-16">
-          <div className="relative aspect-[16/9] rounded-xl overflow-hidden border">
+          <div className="relative h-64 rounded-xl overflow-hidden border">
             <Image
-              src="/images/services.jpg"
+              src="/images/ChatGPTServices.jpg"
               alt="Parents and child discussing a therapy plan with a therapist"
               fill
               sizes="(max-width: 768px) 100vw, 1024px"
@@ -160,7 +182,7 @@ export default function HomePage() {
           </div>
           <div className="relative aspect-[4/3] md:aspect-[3/2] rounded-xl overflow-hidden border">
             <Image
-              src="/images/benefits.png"
+              src="/images/ChatGPTBenefits.png"
               alt="Smiling child showing positive progress in therapy"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -198,7 +220,7 @@ export default function HomePage() {
           <div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden border">
               <Image
-                src="/images/contact.png"
+                src="/images/ChatGPTContact.png"
                 alt="Welcoming reception desk at the therapy center"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
